@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para mi novia ❤️</title>
+    <style>
+        body { background-color: #ffeef0; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; font-family: sans-serif; }
+        .sobre { background: white; padding: 20px; border-radius: 20px; text-align: center; box-shadow: 0 10px 20px rgba(0,0,0,0.1); width: 80%; max-width: 300px; }
+        img { width: 100%; border-radius: 15px; }
+        button { background: #ff4d6d; color: white; border: none; padding: 12px 25px; border-radius: 50px; font-size: 18px; cursor: pointer; margin-top: 15px; }
+        #mensaje { display: none; font-size: 30px; color: #ff4d6d; margin-top: 15px; font-weight: bold; animation: latido 1s infinite; }
+        @keyframes latido { 0% { transform: scale(1); } 50% { transform: scale(1.1); } 100% { transform: scale(1); } }
+    </style>
+</head>
+<body>
+    <div class="sobre">
+        <img src="gatito.jpg" alt="Gatito">
+        <button id="btn" onclick="abrir()">Abrir carta ✉️</button>
+        <div id="mensaje">¡TE AMO! ❤️</div>
+    </div>
+    <script>
+        function abrir() {
+            document.getElementById('mensaje').style.display = 'block';
+            document.getElementById('btn').style.display = 'none';
+        }
+    </script>
+</body>
+</html>

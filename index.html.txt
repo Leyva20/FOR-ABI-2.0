@@ -73,7 +73,7 @@
 </head>
 <body>
     <div class="sobre">
-        <img src="gatito.jpg" alt="Gatito">
+        <img src="gatito.JPG" alt="Gatito">
         <button id="btn" onclick="abrir()">Abrir carta ✉️</button>
         <div id="mensaje">¡TE AMO MUCHO MI ABIGAIL ESTERLUZ! ❤️</div>
     </div>
